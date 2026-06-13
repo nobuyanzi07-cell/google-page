@@ -22,4 +22,53 @@ a:hover {
     text-decoration: underline;
 }
 
+/*Nav*/
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding: 12px 16.5px;
+    gap:16px;
+}
 
+.top-nav a {
+    font-size: 14px;
+    color: #202124;
+    text-decoration: none;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: auto;
+}
+
+.apps-btn {
+    background: none;
+    border:none;
+    font-size:20px;
+    cursor: pointer;
+    color: #5f6368;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.apps-btn:hover {
+    background-color: #f1f3f4;
+}
+
+.signin-btn {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 9px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.signin-btn:hover {
+    background-color:#1765cc;
+}
